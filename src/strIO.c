@@ -1,5 +1,5 @@
 #include <stdio.h> 
- 
+#include <wchar.h>
 size_t my_strlen(const char *s) { const char *p = s; 
  
    while (*p)       ++p; 
